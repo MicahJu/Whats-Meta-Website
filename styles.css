@@ -1,0 +1,330 @@
+/*General styling*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+html,body {
+    overflow-x: hidden;
+}
+
+/*Start of the Navbar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.Logo {
+    color: white;
+    margin-left: 10px;
+    cursor:pointer;
+    margin: 10px;
+}
+
+.Nav-Links {
+    display: flex;
+}
+
+.Nav-items {
+    list-style: none;
+}
+
+.Nav-items a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 30px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+.Nav-items a:hover {
+    color: blue;
+   
+}
+
+.fa-bars {
+    color: white;
+    margin-right:15px ;
+    display: none;
+}
+/*End of the Navbar*/
+
+
+
+
+
+/*Start of Panel 1*/
+.Panel-1 {
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat";
+    flex-wrap: wrap;
+    display: flex;
+    overflow: hidden;
+}
+
+.Panel-1-P {
+    padding: 0;
+    margin-left: 60px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+span {
+    color: royalblue;
+}
+
+video {
+    width: 125%;
+    height: 400px;
+}
+
+section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+/*End of Panel 1*/
+
+
+
+
+
+/* Start of Continous Scroll*/
+.Header3 {
+    text-align: center;
+    font-family: "Montserrat";
+    margin: 30px 30px 0px 30px;
+}
+
+.marquee {
+    margin-top: 30px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {transform: translate(0vw);}
+    100% {transform: translate(-180vw);}
+}
+
+.marquee-content li {
+    margin-right: 75px;
+}
+/*End of Continous Scroll*/
+
+
+
+
+/*Start of the Cards*/
+.Header2 {
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 30px;
+}
+
+ .Container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.Card {
+    font-family: "Montserrat";
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.Card-Header {
+    text-align: center;
+    margin: 10px;
+}
+
+.Card-P {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: royalblue;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: wheat;
+}
+/*End of the Cards
+
+
+
+
+
+/*Start of Footer*/
+.Footer {
+    background-color: black;
+    width:100%;
+    height: 210px;
+}
+
+.Contact {
+    position: absolute;
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 55px;
+    margin-bottom: 10px;
+    left: 35px;
+    
+}
+
+.Email {
+    cursor: pointer;
+    font-family: "Montserrat";
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 95px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+.Phone {
+    cursor: pointer;
+    font-family: "Montserrat";
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 95px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.fa-circle-arrow-up {
+    float: right;
+    cursor: pointer;
+    color: white;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+
+.fa-circle-arrow-up:hover {
+    filter: invert(63%) sepia(74%) saturate(1290%) hue-rotate(200deg) brightness(96%) contrast(100%);
+}
+/*End of Footer*/
+
+@media only screen and (max-width: 700px) {
+    html,body {
+        overflow-x: hidden;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        overflow: hidden;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .Logo {
+        color: white;
+        margin-left: 15px;
+        cursor:pointer;
+        margin: 10px;
+    }
+
+    .Panel-1-P {
+        padding: 0;
+        margin-left: 50px;
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+     /*nav ul li {
+        display: flex;
+        text-decoration: none;
+        padding: 0px 15px;
+        color: white;
+        font-family: "Montserrat";
+    }*/
+
+    .fa-bars {
+        cursor: pointer;
+        color: white;
+        margin-right: 15px;
+        display: block;
+    }
+
+    nav ul  {
+        width: 100%;
+        background: royalblue;
+        position: absolute;
+        margin-top: 20px;
+        height: 35px;
+        top: 75;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+    }
+    
+
+    #menuList {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s
+    }
+
+
+}
