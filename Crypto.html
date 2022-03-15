@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Plug-ins/css-1/css/all.css">
+    <title>Cryptocurrency</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="Logo">What's Metaverse</h1>
+      <nav>
+        <ul id="menuList" class="Nav-Links">
+          <li class="Nav-items">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="Nav-items">
+            <a href="">About</a>
+          </li>
+          <li class="Nav-items">
+            <a href="index.html#Footer">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-2x fa-bars" onclick="togglemenu()"></i>
+    </header>
+    <h1 class="Crypto-Header">Crypto Explained</h1>
+    <img class="Crypto" src="Video/Cryptocurrency.jpg" alt=""/>
+    <p>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.<br><br>Cryptocurrency received its name because it uses encryption to verify transactions. This means advanced coding is involved in storing and transmitting cryptocurrency data between wallets and to public ledgers. The aim of encryption is to provide security and safety.<br><br>The first cryptocurrency was Bitcoin, which was founded in 2009 and remains the best known today. Much of the interest in cryptocurrencies is to trade for profit, with speculators at times driving prices skyward.<br><br>Cryptocurrencies works by running on a distributed public ledger called blockchain, which hold a record of all transactions updated and held by currency holders. Units of cryptocurrency are created through a process called mining, which involves using computer power to solve complicated mathematical problems that generate coins. Users can also buy the currencies from brokers, then store and spend them using cryptographic wallets.<br><br>If you were to buy or already own cryptocurrency, you don’t own anything tangible. What you own is a key that allows you to move a record or a unit of measure from one person to another without a trusted third party.</p>
+    <a class="Crypto-back"href="#"><h2>Back to top</h2></a>
+  </body>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .Crypto-Header {
+      font-family: montserrat;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    img {
+        object-fit: cover;
+        height: 0px auto;
+        width: 100%;
+    }
+
+    p {
+        margin: 25px;
+        font-family: montserrat;
+    }
+
+    .fa-bars {
+    color: white;
+    margin-right:15px ;
+    display: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: montserrat;
+        cursor: pointer;
+    }
+
+    .Crypto-back{
+        color: white;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        .fa-bars {
+        cursor: pointer;
+        color: white;
+        margin-right: 15px;
+        display: block;
+        }
+        nav ul  {
+        width: 100%;
+        background: royalblue;
+        position: absolute;
+        margin-top: 20px;
+        height: 35px;
+        top: 75;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+        }
+    
+
+        #menuList {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s
+        }
+    }
+  </style>
+
+<script src="main.js"></script>
+</html>

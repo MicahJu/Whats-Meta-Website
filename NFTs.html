@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Plug-ins/css-1/css/all.css">
+    <title>NFTs</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="Logo">What's Metaverse</h1>
+      <nav>
+        <ul id="menuList" class="Nav-Links">
+          <li class="Nav-items">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="Nav-items">
+            <a href="">About</a>
+          </li>
+          <li class="Nav-items">
+            <a href="index.html#Footer">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-2x fa-bars" onclick="togglemenu()"></i>
+    </header>
+    <h1 class="NFTs-Header">NFTs Explained</h1>
+    <img class="NFTs" src="Video/NFTs.jpg" alt=""/>
+    <p>An NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos. Although they’ve been around since 2014, NFTs are gaining notoriety now because they are becoming an increasingly popular way to buy and sell digital artwork. A staggering $174 million has been spent on NFTs since November 2017.<br><br>NFTs are also generally one of a kind, or at least one of a very limited run, and have unique identifying codes. This stands in contrast to most digital creations, which are almost always infinite in supply. Hypothetically, cutting off the supply should raise the value of a given asset, assuming it’s in demand.<br><br>NFT allows the buyer to own the original product. Not only that, but it contains built-in authentication, which serves as proof of ownership. Collectors value those “digital bragging rights” almost more than the item itself.</p>
+    <a class="NFT-back"href="#"><h2>Back to top</h2></a>
+  </body>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .NFTs-Header {
+      font-family: montserrat;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    img {
+        object-fit: cover;
+        height: 0px auto;
+        width: 100%;
+    }
+
+    p {
+        margin: 25px;
+        font-family: montserrat;
+    }
+
+    .fa-bars {
+    color: white;
+    margin-right:15px ;
+    display: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: montserrat;
+        cursor: pointer;
+    }
+
+    .NFT-back{
+        color: white;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        .fa-bars {
+        cursor: pointer;
+        color: white;
+        margin-right: 15px;
+        display: block;
+        }
+        nav ul  {
+        width: 100%;
+        background: royalblue;
+        position: absolute;
+        margin-top: 20px;
+        height: 35px;
+        top: 75;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+        }
+    
+
+        #menuList {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s
+        }
+    }
+  </style>
+
+<script src="main.js"></script>
+</html>

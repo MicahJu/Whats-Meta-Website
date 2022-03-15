@@ -192,6 +192,26 @@ button {
 button:hover {
     background-color: wheat;
 }
+
+.Web3-button {
+    text-decoration: none;
+}
+
+.NFT-button {
+    text-decoration: none;
+}
+
+.Crypto-button {
+    text-decoration: none;
+}
+
+.Web3 {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
 /*End of the Cards
 
 
@@ -199,7 +219,7 @@ button:hover {
 
 
 /*Start of Footer*/
-.Footer {
+#Footer {
     background-color: black;
     width:100%;
     height: 210px;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Plug-ins/css-1/css/all.css">
+    <title>Web3.0</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="Logo">What's Metaverse</h1>
+      <nav>
+        <ul id="menuList" class="Nav-Links">
+          <li class="Nav-items">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="Nav-items">
+            <a href="">About</a>
+          </li>
+          <li class="Nav-items">
+            <a href="index.html#Footer">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-2x fa-bars" onclick="togglemenu()"></i>
+    </header>
+    <h1 class="Web3-Header">The Future of The Internet</h1>
+    <img class="Web3" src="Video/Web3.0.jpeg" alt="" height="400px"/>
+    <p>Web 3.0 represents the next iteration or phase of the evolution of the web/Internet and potentially could be as disruptive and represent as big a paradigm shift as Web 2.0. Web 3.0 is built upon the core concepts of decentralization, Artificial intelligence(AI) and Machine Learning. <br><br> Decentralization: This is a core tenet of Web 3.0. In Web 2.0, computers use HTTP in the form of unique web addresses to find information, which is stored at a fixed location, generally on a single server. With Web 3.0, because information would be found based on its content, it could be stored in multiple locations simultaneously and hence be decentralized. This would break down the massive databases currently held by Internet giants like Facebook (now Meta) and Google, and would hand greater control to users. <br><br>Artificial intelligence (AI) and machine learning: In Web 3.0, computers will be able to understand information similarly to humans, through technologies based upon Semantic Web concepts and natural language processing. Web 3.0 will also use machine learning, which is a branch of artificial intelligence (AI) that uses data and algorithms to imitate how humans learn, gradually improving its accuracy. These capabilities will enable computers to produce faster and more relevant results in a host of areas like drug development and new materials, as opposed to merely targeted advertising that forms the bulk of current efforts.<br><br> The Bottome Line is that Web 3.0 will be an immersive experiences in the metaverse, just as Web 2.0 introduced color/basic 3D and Web 1.0 represented the black and white era.</p>
+    <a class="Web-back"href="#"><h2>Back to top</h2></a>
+  </body>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .Web3-Header {
+      font-family: montserrat;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    img {
+        object-fit: cover;
+        height: 0px auto;
+        width: 100%;
+    }
+
+    p {
+        margin: 25px;
+        font-family: montserrat;
+    }
+
+    .fa-bars {
+    color: white;
+    margin-right:15px ;
+    display: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: montserrat;
+        cursor: pointer;
+    }
+
+    .Web-back{
+        color: white;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        .fa-bars {
+        cursor: pointer;
+        color: white;
+        margin-right: 15px;
+        display: block;
+        }
+        nav ul  {
+        width: 100%;
+        background: royalblue;
+        position: absolute;
+        margin-top: 20px;
+        height: 35px;
+        top: 75;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+        }
+    
+
+        #menuList {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s
+        }
+    }
+  </style>
+
+<script src="main.js"></script>
+</html>
