@@ -79,7 +79,7 @@ header {
 .Panel-1-P {
     padding: 0;
     margin-left: 60px;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 100px;
 }
 
@@ -305,10 +305,18 @@ button:hover {
     }
 
     .Panel-1-P {
-        padding: 0;
-        margin-left: 50px;
-        font-size: 20px;
-        margin-top: 85px;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .Right-Section {
+        position: absolute;
+        bottom: -175px;
+        left: -25px;
+        right: 30px;
+        width: 350px;
+        overflow: hidden;
     }
 
      /*nav ul li {
@@ -348,3 +356,5 @@ button:hover {
 
 
 }
+
+
