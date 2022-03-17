@@ -305,19 +305,16 @@ button:hover {
     }
 
     .Panel-1-P {
-        text-align: center;
-        font-size: 35px;
-        margin-top: 25px;
+        font-size: 20px;
+        margin-top: 150px;
+        margin-left: 25px;
     }
 
-    .Right-Section {
-        position: absolute;
-        bottom: -175px;
-        left: -25px;
-        right: 30px;
-        width: 350px;
-        overflow: hidden;
+    .Section-Right {
+        margin-right: 20px;
     }
+
+    
 
      /*nav ul li {
         display: flex;
